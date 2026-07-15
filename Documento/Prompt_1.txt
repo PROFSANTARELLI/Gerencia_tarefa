@@ -60,3 +60,9 @@ Este épico contempla toda a documentação obrigatória.
 
 
 peço que entenda todo o cenário, avalie se precisa de mais informações e o próximo passo, assim que eu validar com você, vamos consturir os documentos gerais do sistema
+
+
+para front-end: streamlit
+para backend: fastapi
+para persistência SQLAlchemy
+Banco de Dados: SQLite
