@@ -179,3 +179,12 @@ def delete_task(task_id: int, db: Session = Depends(database.get_db)):
     db.delete(db_task)
     db.commit()
     return None
+
+
+#python3 -m venv venv
+
+#venv\Scripts\activate
+
+#pip install -r requirements.txt
+
+#uvicorn backend.main:app --reload
