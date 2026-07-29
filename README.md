@@ -31,9 +31,11 @@ http://127.0.0.1:8000/docs
 # Rodar o Frontend (ATENÇÃO:novo terminal)
 .\venv\Scripts\Activate ou source venv/bin/activate
 
+#subir frontend
 streamlit run frontend/app.py
 
 # Executar os testes (novo terminal)
 .\venv\Scripts\Activate
 
+#rodar teste
 pytest
