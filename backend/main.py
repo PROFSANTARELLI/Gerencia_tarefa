@@ -79,7 +79,7 @@ def read_root():
     return {"status": "ControlTask API rodando com sucesso!", "documentacao": "/docs"}
 
 @app.post("/users", response_model=UserResponse, status_code=status.HTTP_201_CREATED, tags=["Usuários"])
-def create_user(user: UserCreate, db: Session = Depends(database.get_db)):
+def create_user(user: UserCreate, db: Session = Depends()):
     """Cadastra um novo usuário no sistema."""
     db_user = db.query(models.User).filter(models.User.email == user.email).first()
     if db_user:
