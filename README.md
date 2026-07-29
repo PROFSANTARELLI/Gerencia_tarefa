@@ -28,14 +28,14 @@ pip freeze > requirements.txt
 # Abrir o Swagger
 http://127.0.0.1:8000/docs
 
-# Rodar o Frontend (ATENÇÃO:novo terminal)
+# ativar venv e Rodar o Frontend (ATENÇÃO:novo terminal)
 .\venv\Scripts\Activate ou source venv/bin/activate
 
-#subir frontend
+# Rodar o Frontend
 streamlit run frontend/app.py
 
 # Executar os testes (novo terminal)
 .\venv\Scripts\Activate
 
-#rodar teste
+# Rodar o teste
 pytest
